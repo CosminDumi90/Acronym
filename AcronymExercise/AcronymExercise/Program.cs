@@ -1,5 +1,5 @@
 ﻿using System;
-using Acronym;
+using AcronymLibrary;
 
 namespace AcronymExercise
 {
@@ -7,9 +7,8 @@ namespace AcronymExercise
     {
         static void Main(string[] args)
         {
-
-            Acronym.Acronym acro = new Acronym.Acronym();
-            acro.ReadPhrase();
+            Acronym acronym = new Acronym();
+            acronym.ReadPhrase();
         }
     }
 }

@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\AcronymLibrary.csproj" />
+    <ProjectReference Include="..\AcronymLibrary\AcronymLibrary.csproj" />
   </ItemGroup>
 
 </Project>
