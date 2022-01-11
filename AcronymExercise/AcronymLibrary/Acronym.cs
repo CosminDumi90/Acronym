@@ -36,8 +36,9 @@ namespace AcronymLibrary
             string[] splited = input.Split(" ");
             for (int i = 0; i < splited.Length; i++)
             {
-                char[] firstWord = splited[i].ToCharArray();
-                Console.Write(firstWord[0].ToString().ToUpper());
+                //char[] firstWord = splited[i].ToCharArray();
+                //Console.Write(firstWord[0].ToString().ToUpper());
+                Console.Write(splited[i][0].ToString().ToUpper());
             }
         }
     }
